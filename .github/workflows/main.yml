@@ -29,4 +29,4 @@ jobs:
       - name: Installing Surge 
         run: npm install --global surge 
       - name: deploying using surge
-        run: surge ./ project002_wasim.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ http://project002_wasim.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
