@@ -5,8 +5,8 @@ function App() {
     return ( <
         div >
         <
-        h1 > Hello World React App from Wasim < /h1> <
-        /div>
+        h1 > Hello World React App from Wasim < /h1> < /
+        div >
     );
 }
 
